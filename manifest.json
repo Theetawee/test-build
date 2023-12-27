@@ -1,0 +1,39 @@
+{
+    "background_color": "#ffffff",
+    "categories": ["social", "news", "magazines"],
+    "description": "Unlock a universe of wonders with Waanverse – your gateway to breaking news, politics, trending music, world events, sports scores, and the latest global stories. Experience it all with minimal data usage.",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable",
+            "src": "192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable",
+            "src": "512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "name": "Waanverse",
+    "short_name": "Waanverse",
+    "start_url": "/",
+    "theme_color": "#ffffff",
+    "scope": "/",
+    "launch_handler": {
+        "route_to": "existing-client",
+        "navigate_existing_client": "never"
+    }
+}
